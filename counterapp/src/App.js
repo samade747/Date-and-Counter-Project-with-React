@@ -1,5 +1,7 @@
 import logo from './logo.svg';
 import './App.css';
+import Header from './components/Header';
+import { useState } from "react"
 
 function App() {
 
@@ -9,7 +11,7 @@ function App() {
   
   return (
     <div>
-      
+      <Header />
     </div>
   );
 }
