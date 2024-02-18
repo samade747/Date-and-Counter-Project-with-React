@@ -36,3 +36,23 @@
     transform: rotate(360deg);
   }
 }
+
+.counterParent{
+  background-color: white;
+  color: red;
+  display: flex;
+  justify-content: center;
+  height: 100vh;
+  align-items: center;
+}
+
+.dateCounter{
+  background-color: rgb(39, 11, 65);
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 550px;
+  height: 400px;
+
+}
